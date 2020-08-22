@@ -16,8 +16,8 @@ public:
     Computadora();
     Computadora(string, string, string);
     ~Computadora();
-    void ping(string, string);
-    void show(string);
+    void ping(Computadora, string, vector<Computadora>);
+    void show(Computadora);
     string getIp();
     string getMascara();
     string getHostname();
